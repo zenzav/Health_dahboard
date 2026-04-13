@@ -155,7 +155,7 @@ export default function Overview() {
         </div>
         {filteredPatients.length > 8 && (
           <p className="text-xs text-gray-400 text-center pt-3 border-t border-gray-50">
-            Showing 8 of {filteredPatients.length} patients. Go to <a href="/patients" className="text-indigo-600 underline">Patients</a> to see all.
+            Showing 8 of {filteredPatients.length} patients.
           </p>
         )}
       </div>
